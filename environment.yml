@@ -1,0 +1,25 @@
+name: hmr
+channels:
+  - conda-forge
+dependencies:
+  # required
+  - python
+  - ipython
+  - jupyter
+  - notebook
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - scipy
+  - pandas
+  - openpyxl
+  - xlrd
+  - matplotlib
+  - geopandas
+  - rasterio
+  - flopy
+  - pyemu
+  - pip
+  - pip:
+    - pypestutils
+    - pyshp
